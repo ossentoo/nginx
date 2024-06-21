@@ -6,7 +6,7 @@ server {
     listen [::]:8080;
     root /home/site/wwwroot;
     index index.html;
-    server_name  metadent.nl www.metadent.nl
+    server_name  metadent.nl www.metadent.nl;
 
     location / {
         try_files $uri $uri/ /index.html;
